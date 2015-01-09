@@ -6,7 +6,7 @@ require 'middleman-automatic-clowncar/thumbnail-resource'
 require 'middleman-automatic-clowncar/sitemap-extension'
 require 'middleman-automatic-clowncar/utils'
 
-require 'fastimage'
+require 'fastimage' unless defined?(FastImage)
 
 module Middleman
   module AutomaticClowncar
